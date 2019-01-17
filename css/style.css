@@ -1,0 +1,95 @@
+body {
+  margin: 0 auto;
+}
+
+.board .header {
+  width: 100%;
+  height: 150px;
+  background: #c0b9dd;
+}
+
+.board .header h1 {
+  line-height: 80px;
+  color: #fff;
+}
+
+.board .header button {
+  border-radius: 3px;
+  border: 1px solid #fff;
+  background: #fff;
+  padding: 10px;
+  color: #c0b9dd;
+  transition: all 0.3s ease;
+}
+
+.board .header button:hover {
+  background: #c0b9dd;
+  color: #fff;
+}
+
+.board .column-container .column {
+  margin: 40px 0;
+  border-radius: 3px;
+  background: #ded9e2;
+}
+
+.board .column-container .column h2 {
+  padding: 10px;
+}
+
+.board .column-container .column ul {
+  list-style: none;
+}
+
+.board .column-container .column .buttons {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.board .column-container .column .buttons button {
+  color: #c0b9dd;
+  margin: 10px 5px;
+  border-radius: 3px;
+  border: 1px solid #c0b9dd;
+  background: #fff;
+  padding: 5px;
+  transition: all 0.3s ease;
+}
+
+.board .column-container .column .buttons button:hover {
+  background: #c0b9dd;
+  color: #fff;
+}
+
+.card {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin: 20px 20px;
+  padding: 10px;
+  background: #f7f4ea;
+  border-radius: 3px;
+}
+
+.card button {
+  color: #c0b9dd;
+  margin: 10px 5px;
+  border-radius: 3px;
+  border: 1px solid #c0b9dd;
+  background: #fff;
+  padding: 5px;
+  transition: all 0.3s ease;
+}
+
+.card button:hover {
+  background: #c0b9dd;
+  color: #fff;
+}
+
+.card p {
+  font-size: 16px;
+}
+/*# sourceMappingURL=style.css.map */
