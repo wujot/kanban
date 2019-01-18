@@ -72,18 +72,18 @@ body {
 	background: #f7f4ea;
 	border-radius: 3px;
 	button {
-				color: #c0b9dd;
-				margin: 10px 5px;
-				border-radius: 3px;
-				border: 1px solid #c0b9dd;
-				background: #fff;
-				padding: 5px;
-				transition:all 0.3s ease;
-				&:hover {
-					background: #c0b9dd;
-					color: #fff;
-					}
-				}
+		color: #c0b9dd;
+		margin: 10px 5px;
+		border-radius: 3px;
+		border: 1px solid #c0b9dd;
+		background: #fff;
+		padding: 5px;
+		transition:all 0.3s ease;
+		&:hover {
+			background: #c0b9dd;
+			color: #fff;
+		}
+	}
 	p {
 		font-size: 16px;
 	}
